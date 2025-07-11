@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karnataka High Court - Group D Status</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="Images/logo.png" alt="Official Logo of Karnataka High Court">
+  </div>
+
+  <h1>ಕರ್ನಾಟಕ ಉಚ್ಛ ನ್ಯಾಯಾಲಯ<br><span>Karnataka High Court</span></h1>
+  <h2>Recruitment Checklist</h2>
+
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+      Thank you for submitting your application; we've confirmed its receipt. Our team is currently evaluating all submissions.
+      We'll make a public announcement regarding the outcomes once the evaluation process is complete, which you can find exclusively on 
+      <a href="https://judiciary.karnataka.gov.in/" target="_blank">https://judiciary.karnataka.gov.in/</a> or Notice Board Bangalore.
+    </marquee>
+  </div>
+
+  <div class="form-container">
+    <h3>Check Your Application Status</h3>
+    <input type="text" id="applicationNumber" placeholder="Enter Application Number, e.g., KCMXXXXXXXXXXXXX" />
+    
+    <div class="button-group">
+      <button class="btn green" onclick="getDetails()">Check Status</button>
+    </div>
+
+    <div id="resultMessage"></div>
+  </div>
+
+  <div class="disclaimer">
+    This website is for educational purposes only. The content provided is not official information and should not be treated as a real document.
+    Users are advised to use their own judgment when interpreting the information.
+  </div>
+
+</body>
+</html>
